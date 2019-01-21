@@ -2,22 +2,52 @@
 <html>
   <head>
     <title>CSS/HTML Workshop with Privateaser</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
+  <h1>Privateaser</h1>
+  <h2>Calculate actors incomes</h2>
+  <div id="main-form">
     <div id="bar">
+      <h3>Bar</h3>
+      Bar name:
       <input class="js-name" type="text" placeholder="Bar name"/>
+      <br/>
+      <br/>
+      Price by hour:
       <input class="js-price-by-hour" type="number" placeholder="Price by hour"/>
+      <br/>
+      <br/>
+      Price by person:
       <input class="js-price-by-person" type="number" placeholder="Price by person"/>
+      <br/>
+      <br/>
     </div>
     <div id="booker">
+      <h3>Booker</h3>
+      Booker name:
       <input class="js-name" type="text" placeholder="Booker name"/>
-      <input class="js-time" type="number" placeholder="Time in h"/>
+      <br/>
+      <br/>
+      Time in hour:
+      <input class="js-time" type="number" placeholder="Time in hour"/>
+      <br/>
+      <br/>
+      Persons:
       <input class="js-persons" type="number" placeholder="Persons"/>
-      <input class="js-option" type="checkbox" placeholder="Deductible option"/>
+      <br/>
+      <br/>
+      Do you want a deductible option?
+      <input type="radio" class="js-option" id="js-option-yes" name="Deductible option"/>Yes
+      <input type="radio" class="js-option" id="js-option-no" name="Deductible option" checked/>No
+      <br/>
+      <br/>
     </div>
     <button id="compute">Compute</button>
     <div id="actors"></div>
+    <img id ="img" src="https://static1.hamburg-tourism.de/live_fileadmin/_processed_/csm_Kleines_Phi_Theke_d75cf3c5e1.jpg"/>
     <script src="privateaser.js"></script>
     <script src="index.js"></script>
+  </div>
   </body>
 </html>

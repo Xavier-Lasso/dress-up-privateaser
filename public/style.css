@@ -1,0 +1,39 @@
+body {
+    background-color: azure;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#main-form {
+    position: absolute;
+    left: 20%;
+}
+
+#img {
+    position: absolute;
+    top: 5%;
+    left: 150%;
+    height: 400px;
+    width: 400px;
+}
+
+#compute {
+    position: absolute;
+    left: 80%;
+    background-color: blue;
+    border:           blue;
+    border-radius:    10px;
+    color:            white;
+    font-weight:      bold;
+    font-size:        12px;
+    padding:          10px 10px;
+    cursor:           pointer;
+}
+
+.js-name, .js-persons, .js-price-by-hour, .js-price-by-person, .js-time {
+    position: absolute;
+    left: 50%;
+}
